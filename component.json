@@ -1,0 +1,7 @@
+{
+  "name": "comments",
+  "description": "Firebase-powered comments system",
+  "version": "0.0.1",
+  "paths": ["lib"],
+  "local": ["app"]
+}

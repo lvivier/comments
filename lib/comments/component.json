@@ -1,0 +1,7 @@
+{
+  "name": "comments",
+  "dependencies": {
+    "lvivier/firebase-react": "*"
+  },
+  "scripts": ["index.js"]
+}

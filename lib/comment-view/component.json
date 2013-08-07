@@ -1,0 +1,12 @@
+{
+  "name": "comment-view",
+  "version": "0.0.1",
+  "dependencies": {
+    "component/domify": "*",
+    "component/inherit": "*",
+    "component/relative-date": "*",
+    "component/view": "*"
+  },
+  "scripts": ["index.js", "template.js"],
+  "styles": ["comment.css"]
+}

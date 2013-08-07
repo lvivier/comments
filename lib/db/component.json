@@ -1,0 +1,7 @@
+{
+  "name": "db",
+  "dependencies": {
+    "lvivier/firebase": "*"
+  },
+  "scripts": ["index.js"]
+}

@@ -1,0 +1,46 @@
+/**
+ * User View
+ */
+
+.comments-user {
+  margin: 18px 10px;
+  color: #888;
+  padding: 0 0 0 48px;
+}
+.comments-user .message {
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  height: 48px;
+  width: 100%;
+  padding: 10px 9px;
+  transition: height 0.3s;
+}
+.comments-user .message:focus {
+  height: 96px;
+}
+.comments-user button.send {
+  background: #456;
+  margin: 0;
+  font-size: 14px;
+  float: right;
+  padding: 9px 18px;
+}
+.comments-user button.twitter {
+  background: #00acee;
+}
+.comments-user button.facebook {
+  background: #3b5998;
+}
+.comments-user button.logout {
+  background: #ddd;
+  color: #999;
+  font-weight: bold;
+  margin: 0;
+}
+.comments-user img.avatar {
+  margin-left: -54px;
+}

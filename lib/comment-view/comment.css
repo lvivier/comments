@@ -1,0 +1,32 @@
+.comments-list {
+  list-style-type: none;
+  margin: 18px 10px;
+  padding: 0;
+}
+.comments-list .text {
+  white-space: pre-line;
+}
+.comments-list li {
+  display: block;
+  margin: 18px 0 18px 48px;
+  min-height: 48px;
+}
+.comments-list .name {
+  color: #888;
+}
+.comments-list .time {
+  padding: 0 1em;
+  font-size: smaller;
+  color: silver;
+  text-transform: uppercase;
+}
+.comments-list a.link {
+  color: inherit;
+  text-decoration: none;
+}
+.comments-list a.link:hover {
+  text-decoration: underline;
+}
+.comments-list img.avatar {
+  margin-left: -54px;
+}

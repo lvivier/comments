@@ -1,0 +1,34 @@
+/**
+ * High-level styles
+ */
+
+.comments {
+  border-top: 2px solid #ddd;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.comments button {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.85;
+  transition: opacity 0.3s;
+}
+.comments button:hover {
+  opacity: 1;
+}
+.comments .hide { display: none; }
+
+/** TODO TEMPORARY break this out */
+.comments .tools {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.comments-user:hover .tools,
+.comments-list li:hover .tools {
+  opacity: 1;
+}

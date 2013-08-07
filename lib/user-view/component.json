@@ -1,0 +1,12 @@
+{
+  "name": "user-view",
+  "version": "0.0.1",
+  "dependencies": {
+    "component/inherit": "*",
+    "component/view": "*",
+    "component/domify": "*"
+  },
+  "local": ["default-avatar"],
+  "scripts": ["index.js", "template.js"],
+  "styles": ["user.css"]
+}

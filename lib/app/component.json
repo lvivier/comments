@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "description": "Main app",
+  "dependencies": {
+    "lvivier/firebase-react": "*",
+    "lvivier/firebase-login-react": "*"
+  },
+  "scripts": ["index.js"],
+  "styles": ["app.css"],
+  "local": [
+    "db",
+    "comments",
+    "comment-view",
+    "user-view"
+  ]
+}
