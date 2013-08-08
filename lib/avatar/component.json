@@ -2,5 +2,5 @@
   "name": "avatar",
   "description": "Default avatar, 48x48 PNG",
   "scripts": ["index.js"],
-  "styles": ["avatar.css"]
+  "styles": ["avatar.styl"]
 }

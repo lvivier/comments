@@ -1,12 +1,9 @@
 build: components lib
-	@component build --dev
+	@component build --dev --use component-stylus
 
-#templates = template/comment.js template/comments.js template/avatar.js
+production: components lib
+	@component build --use component-stylus
 
-#template/%.js : template/%.html
-#	@component convert $<
-
-# components: $(templates) component.json
 components: component.json
 	@component install --dev
 

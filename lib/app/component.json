@@ -6,7 +6,7 @@
     "lvivier/firebase-login-react": "*"
   },
   "scripts": ["index.js"],
-  "styles": ["app.css"],
+  "styles": ["app.styl"],
   "local": [
     "db",
     "comments",

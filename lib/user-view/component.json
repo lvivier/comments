@@ -8,5 +8,5 @@
   },
   "local": ["avatar"],
   "scripts": ["index.js", "template.js"],
-  "styles": ["user.css"]
+  "styles": ["user.styl"]
 }
