@@ -6,7 +6,7 @@
     "component/view": "*",
     "component/domify": "*"
   },
-  "local": ["default-avatar"],
+  "local": ["avatar"],
   "scripts": ["index.js", "template.js"],
   "styles": ["user.css"]
 }
