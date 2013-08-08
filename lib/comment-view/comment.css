@@ -12,12 +12,12 @@
   min-height: 48px;
 }
 .comments-list .name {
-  color: #888;
+  color: #899;
 }
 .comments-list .time {
   padding: 0 1em;
   font-size: smaller;
-  color: silver;
+  color: #ECF0F1;
   text-transform: uppercase;
 }
 .comments-list a.link {
@@ -28,5 +28,7 @@
   text-decoration: underline;
 }
 .comments-list img.avatar {
-  margin-left: -54px;
+  width: 36px;
+  height: 36px;
+  margin-left: -46px;
 }
