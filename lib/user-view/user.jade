@@ -1,0 +1,13 @@
+div.comments
+  div.comments-user
+    img.avatar(data-src='avatar')
+    textarea.message(placeholder='leave a comment…')
+    div(data-show='id')
+      span.tools
+        button.logout sign out
+      button.send Post as {displayName}
+    div(data-hide='id')
+      | sign in with
+      button.twitter twitter
+      button.facebook facebook
+  ul.comments-list

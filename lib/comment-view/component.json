@@ -7,6 +7,7 @@
     "component/relative-date": "*",
     "component/view": "*"
   },
-  "scripts": ["index.js", "template.js"],
-  "styles": ["comment.styl"]
+  "scripts": ["index.js"],
+  "styles": ["comment.styl"],
+  "templates": ["comment.jade"]
 }
