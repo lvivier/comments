@@ -1,0 +1,26 @@
+{
+  "rules": {
+    ".read": true,
+    "$url": {
+      ".read": true,
+      "count": {
+        ".read": true,
+        ".write": "auth !== null",
+        ".validate": "newData.isNumber()"
+      },
+      "comments": {
+        ".read": true,
+        ".write": "!data.exists() && newData.child('userId').val() == auth.id",
+        "$comment": {
+          ".read": true,
+          ".write": "!data.exists() || data.child('userId').val() == auth.id",
+          ".validate": "newData.hasChildren(['displayName', 'userId', 'text', 'avatar', 'time'])",
+          "displayName": {".validate": "newData.isString()"},
+          "text":   {".validate": "newData.isString() && newData.val().length > 0"},
+          "avatar": {".validate": "newData.isString()"},
+          "time": {".validate": "newData.isNumber()"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+/**
+ * Dependencies
+ */
+
+@import 'nib/vendor'
+
+/**
+ * High-level styles
+ */
+.comments
+  border-top: 2px solid #ddd
+  color: #333
+  font-family: sans-serif
+  font-size: 14px
+
+  button
+    background: #ECF0F1
+    border: none
+    border-radius: 6px
+    color: white
+    cursor: pointer
+    display: inline-block
+    font-size: 12px
+    opacity: 1
+    transition: opacity 0.3s ease-out, background 0.3s ease-out
+
+  button:hover
+    opacity: 0.66
+
+  .tools
+    line-height: 1.5em
+    opacity: 0
+    transition: opacity 0.3s
+
+  .hide
+    display: none
+
+/** TODO TEMPORARY break this out */
+.comments-user:hover .tools,
+.comments-list li:hover .tools
+  opacity: 1

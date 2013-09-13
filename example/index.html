@@ -6,6 +6,10 @@
   <body>
     <div id="comments"></div>
     <script src="../build/build.js"></script>
-    <script>require('app')</script>
+    <script>
+      require('comments')(
+        document.getElementById('comments')
+      , 'https://test-lvivier.firebaseio.com/')
+    </script>
   </body>
 </html>

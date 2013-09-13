@@ -1,7 +1,11 @@
 {
   "name": "comments",
+  "description": "Comments",
   "dependencies": {
+    "lvivier/firebase-login-react": "*",
     "lvivier/firebase-react": "*"
   },
-  "scripts": ["index.js"]
+  "scripts": ["index.js"],
+  "styles": ["app.styl"],
+  "local": ["db", "comment-view", "user-view"]
 }
